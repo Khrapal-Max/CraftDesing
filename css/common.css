@@ -1,0 +1,68 @@
+body, html {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 35.16px;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right bottom, #66b8f4, #5eaff1, #57a6ee, #519dea, #4e94e6, #548ee3, #5b88e0, #6282dc, #707ed8, #7d79d3, #8875ce, #9270c8);
+}
+
+h1 {
+    margin: 0;
+    font-size: 70px;
+    line-height: 82.03px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 48px;
+    line-height: 56.25px;
+}
+
+.btn {
+    background-image: linear-gradient(to left, #345aa4, #294ca6, #283ca6, #3128a3, #3f009c);
+    border: 0;
+    border-radius: 13px;
+    font-weight: 500;  
+    color: white;  
+    vertical-align:middle;
+}
+
+.btn:focus {
+    color: white;  
+    box-shadow:3px 5px 3px #6877b9;  
+}
+
+.btn:hover {
+    color: white;  
+    box-shadow:3px 5px 3px #6877b9;  
+}
+
+.nav-link:active {
+    padding: 10px;
+    color: white;  
+    border-width: calc(100% / 2);
+    border-bottom: 2px solid currentColor;
+}
+
+.nav-link:hover {
+    padding: 10px;
+    color: white;   
+    border-width: calc(100% / 2);
+    border-bottom: 2px solid currentColor; 
+}
+
+.nav-link:focus {
+    padding: 10px;
+    color: white;  
+    border-width: calc(100% / 2);
+    border-bottom: 2px solid currentColor;
+}
+
+.nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
