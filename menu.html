@@ -1,61 +1,56 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-xl">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <h2 class="text-decoration-none text-white">CraftDesing</h2>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        <button class="navbar-toggler btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon bg-dark"></span>
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars fs-3 mt-1"></i>
+            </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./home.html">
-                        <h3>Home</h3>
-                    </a>
+                    <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">
-                        <h3>Contact</h3>
-                    </a>
+                    <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">
-                        <h3>Portfolio</h3>
-                    </a>
+                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./about.html">
-                        <h3>About us</h3>
-                    </a>
+                    <a class="nav-link" href="./about.html">About us</a>
                 </li>
             </ul>
+            <button class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                <h4>SING UP</h4>
+            </button>
         </div>
-        <button class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-            <h4>SING UP</h4>
-        </button>
     </div>
 </nav>
 
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="staticBackdropLabel">Registration</h3>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="staticBackdropLabel">Registration</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <span class="input-group-text">Login</span>
+                <input type="text" aria-label="Login" class="form-control">
+                <span class="input-group-text">Pasword</span>
+                <input type="text" aria-label="Pasword" class="form-control">
+                <span class="input-group-text">Confirm pasword</span>
+                <input type="text" aria-label="Pasword" class="form-control">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn" data-bs-dismiss="modal">Cancel registration</button>
+                <button type="button" class="btn">Confirm registration</button>
+            </div>
         </div>
-        <div class="modal-body">
-            <span class="input-group-text">Login</span>
-            <input type="text" aria-label="Login" class="form-control">
-            <span class="input-group-text">Pasword</span>
-            <input type="text" aria-label="Pasword" class="form-control">
-            <span class="input-group-text">Confirm pasword</span>
-            <input type="text" aria-label="Pasword" class="form-control">
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn" data-bs-dismiss="modal">Cancel registration</button>
-          <button type="button" class="btn">Confirm registration</button>
-        </div>
-      </div>
     </div>
-  </div>
+</div>

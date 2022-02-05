@@ -2,6 +2,8 @@ body, html {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-style: normal;
+    font-size: 30px;
+    line-height: 35,16px;
     padding: 0;
     margin: 0;
     background: linear-gradient(to right bottom, #66b8f4, #5eaff1, #57a6ee, #519dea, #4e94e6, #548ee3, #5b88e0, #6282dc, #707ed8, #7d79d3, #8875ce, #9270c8); 
@@ -22,12 +24,14 @@ h2 {
 
 h3 {
     margin: 0;
-    font-size: 30px;
-    line-height: 35.16px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42,19px;
 }
 
 h4 {
     margin: 0;
+    font-weight: 500;
     font-size: 24px;
     line-height: 28,13px;
 }
@@ -43,6 +47,7 @@ input {
     border-radius: 13px;
     font-weight: 500;  
     color: white;  
+    padding: 0.5em 1em;
     vertical-align:middle;
 }
 
