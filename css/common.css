@@ -7,6 +7,8 @@ body, html {
     padding: 0;
     margin: 0;
     background: linear-gradient(to right bottom, #66b8f4, #5eaff1, #57a6ee, #519dea, #4e94e6, #548ee3, #5b88e0, #6282dc, #707ed8, #7d79d3, #8875ce, #9270c8);
+    max-width: 1600px;
+    max-height: 1024px;
 }
 
 h1 {
@@ -38,27 +40,6 @@ h2 {
 .btn:hover {
     color: white;  
     box-shadow:3px 5px 3px #6877b9;  
-}
-
-.nav-link:active {
-    padding: 10px;
-    color: white;  
-    border-width: calc(100% / 2);
-    border-bottom: 2px solid currentColor;
-}
-
-.nav-link:hover {
-    padding: 10px;
-    color: white;   
-    border-width: calc(100% / 2);
-    border-bottom: 2px solid currentColor; 
-}
-
-.nav-link:focus {
-    padding: 10px;
-    color: white;  
-    border-width: calc(100% / 2);
-    border-bottom: 2px solid currentColor;
 }
 
 .nav-link {
