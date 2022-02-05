@@ -67,6 +67,12 @@ input {
     padding: 0.6em 1.5em;
 }
 
+.border-link {
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
 .btn:focus {
     color: white;  
     box-shadow:3px 5px 3px #6877b9;  
@@ -82,14 +88,6 @@ input {
     background-color: #4e94e6;
 }
 
-.instagram {
-    font-family: "Risque-Regular"; 
-    font-weight: 400;
-    font-style: normal;
-    font-size: 2.13em;
-    line-height: 73,97px!important;
-}
-
 .navbar-toggler {
     background-image: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
     padding: 0;
@@ -103,6 +101,18 @@ input {
 }
 
 .nav-link {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:focus {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
     padding: 10px;
     text-decoration: none;
     color: white;
