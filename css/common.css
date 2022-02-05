@@ -2,13 +2,10 @@ body, html {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-style: normal;
-    line-height: 35.16px;
-    font-size: 30px;
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right bottom, #66b8f4, #5eaff1, #57a6ee, #519dea, #4e94e6, #548ee3, #5b88e0, #6282dc, #707ed8, #7d79d3, #8875ce, #9270c8);
-    max-width: 1600px;
-    max-height: 1024px;
+    background: linear-gradient(to right bottom, #66b8f4, #5eaff1, #57a6ee, #519dea, #4e94e6, #548ee3, #5b88e0, #6282dc, #707ed8, #7d79d3, #8875ce, #9270c8); 
+    height: 100%;
 }
 
 h1 {
@@ -21,6 +18,23 @@ h2 {
     margin: 0;
     font-size: 48px;
     line-height: 56.25px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 35.16px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 24px;
+    line-height: 28,13px;
+}
+
+input {
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .btn {
@@ -42,8 +56,17 @@ h2 {
     box-shadow:3px 5px 3px #6877b9;  
 }
 
+.input-group-text {
+    background-color: #4e94e6;
+}
+
 .nav-link {
     padding: 10px;
     text-decoration: none;
     color: white;
+}
+
+.modal-content {
+    border: #fff 3px solid;
+    background-color: #56a0c2;
 }
