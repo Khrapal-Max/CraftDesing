@@ -1,9 +1,17 @@
+@font-face {
+    font-family: "Risque-Regular"; 
+    src: url("../fonts/Risque-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
 body, html {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 30px;
     line-height: 35,16px;
+    color: white;
     padding: 0;
     margin: 0;
     background: linear-gradient(to right bottom, #66b8f4, #5eaff1, #57a6ee, #519dea, #4e94e6, #548ee3, #5b88e0, #6282dc, #707ed8, #7d79d3, #8875ce, #9270c8); 
@@ -18,7 +26,7 @@ h1 {
 
 h2 {
     margin: 0;
-    font-size: 48px;
+    font-size: 1.2em;
     line-height: 56.25px;
 }
 
@@ -70,7 +78,16 @@ input {
 }
 
 .input-group-text {
+    border: 0;
     background-color: #4e94e6;
+}
+
+.instagram {
+    font-family: "Risque-Regular"; 
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.13em;
+    line-height: 73,97px!important;
 }
 
 .navbar-toggler {
@@ -92,6 +109,5 @@ input {
 }
 
 .modal-content {
-    border: #fff 3px solid;
     background-color: #56a0c2;
 }
