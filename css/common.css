@@ -1,14 +1,31 @@
+@font-face {
+    font-family: "Risque-Regular"; 
+    src: url("../fonts/Risque-Regular.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+
+:root {
+    --font-size: 24px;
+    --line-heigth-base: 35.16px;
+  }
+
 body, html {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
     font-style: normal;
-    line-height: 35.16px;
-    font-size: 30px;
+    font-size: var(--font-size);
+    line-height: var(--line-heigth-base);
+    color: white;
     padding: 0;
     margin: 0;
-    background: linear-gradient(to right bottom, #66b8f4, #5eaff1, #57a6ee, #519dea, #4e94e6, #548ee3, #5b88e0, #6282dc, #707ed8, #7d79d3, #8875ce, #9270c8);
-    max-width: 1600px;
-    max-height: 1024px;
+    background: linear-gradient(to right bottom, #66b8f4, #5eaff1, #57a6ee, #519dea, #4e94e6, #548ee3, #5b88e0, #6282dc, #707ed8, #7d79d3, #8875ce, #9270c8); 
+    height: 100%;
+}
+
+header {
+    padding: 0;
+    margin: 0;
 }
 
 h1 {
@@ -17,19 +34,69 @@ h1 {
     line-height: 82.03px;
 }
 
-h2 {
+h3 {
     margin: 0;
-    font-size: 48px;
-    line-height: 56.25px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42,19px;
+}
+
+h4 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28,13px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+a:focus {
+    text-decoration: none;
+    color: white;   
+}
+
+input {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+ul {
+    margin: 0;
+    list-style: none;
 }
 
 .btn {
-    background-image: linear-gradient(to left, #345aa4, #294ca6, #283ca6, #3128a3, #3f009c);
     border: 0;
     border-radius: 13px;
     font-weight: 500;  
     color: white;  
     vertical-align:middle;
+}
+
+.small {
+    background-image: linear-gradient(90deg, #345AA4 -28.35%, rgba(63, 0, 156, 0) 153.96%);
+    padding: 0.5em 1.1em;
+    width: 164px;
+    height: 61px;
+}
+
+.big {
+    background: linear-gradient(90deg, #345AA4 0%, rgba(63, 0, 156, 0.92) 164.26%);
+    padding: 0.6em 1.5em;
+}
+
+.border-link {
+    width: 30%;
+    border-radius: 10px;
+    border: 2px solid white;
 }
 
 .btn:focus {
@@ -42,8 +109,11 @@ h2 {
     box-shadow:3px 5px 3px #6877b9;  
 }
 
-.nav-link {
-    padding: 10px;
-    text-decoration: none;
-    color: white;
+.input-group-text {
+    border: 0;
+    background-color: #4e94e6;
+}
+
+.modal-content {
+    background-color: #3e7b97;
 }

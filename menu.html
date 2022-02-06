@@ -1,30 +1,71 @@
-<nav class="navbar navbar-expand-lg">
+<header>
     <div class="container-fluid">
-        <a class="navbar-brand" href="./home.html">
-            <h2 class="text-decoration-none text-white">CraftDesing</h2>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon bg-dark"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./home.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./about.html">About us</a>
-                </li>
-            </ul>
+        <div class="row pt-4 ps-4 ps-sm-5 pe-1 pe-md-2 flex-nowrap justify-content-between align-items-center">
+            <div class="col col-md-9 col-lg-10 px-0 d-flex flex-nowrap justify-content-between align-items-center">
+                <div class="px-0 fs-6">
+                    <a class="d-flex flex-nowrap align-items-center" href="./index.html">
+                        <div class="d-flex" style="background: rgb(65, 25, 102); 
+                                    min-width: 50px; 
+                                    min-height: 50px;
+                                    border-radius: 5px;
+                                    box-shadow:3px 5px 3px #62656e;">
+                            <i class="fas fa-square-full" style="margin:25% 25%;"></i>
+                        </div>
+                        <span class="px-2 fs-2 fw-normal" style="font-weight: 600;
+                                     line-height: 56.25px;">
+                            CraftDesing
+                        </span>
+                    </a>
+                </div>
+                <div class="d-none d-xl-flex flex-nowrap fs-5 fw-normal">
+                    <a class="ps-2 ps-lg-3 ps-xl-4 ps-xxl-5" href="index.html">Home</a>
+                    <a class="ps-2 ps-lg-3 ps-xl-4 ps-xxl-5" href="contact.html">Contact</a>
+                    <a class="ps-2 ps-lg-3 ps-xl-4 ps-xxl-5" href="portfolio.html">Portfolio</a>
+                    <a class="ps-2 ps-lg-3 ps-xl-4 ps-xxl-5" href="about.html">About us</a>
+                </div>
+            </div>
+            <div class="col col-md-3 col-lg-2 d-none d-sm-flex justify-content-center">
+                <button class="btn small text-nowrap mx-0 mx-sm-2" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    <h4>SING UP</h4>
+                </button>
+            </div>
         </div>
-        <button class="btn" style="font-size: 24px; line-height: 28.13px;">
-            SING UP
-        </button>
+        <div class="col pt-4 ps-4 ms-1 ms-lg-0 d-none d-sm-flex d-xl-none flex-nowrap fs-5 fw-normal">
+            <a class="ps-2 ps-lg-3" href="index.html">Home</a>
+            <a class="ps-2 ps-lg-3" href="contact.html">Contact</a>
+            <a class="ps-2 ps-lg-3" href="portfolio.html">Portfolio</a>
+            <a class="ps-2 ps-lg-3" href="about.html">About us</a>
+        </div>
+        <div class="col pt-4 d-flex d-sm-none flex-column fs-5 fw-normal">
+            <a class="ps-3 py-2" href="index.html">Home</a>
+            <a class="ps-3 py-2" href="contact.html">Contact</a>
+            <a class="ps-3 py-2" href="portfolio.html">Portfolio</a>
+            <a class="ps-3 py-2" href="about.html">About us</a>
+        </div>
     </div>
-</nav>
+</header>
+
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title" id="staticBackdropLabel">Registration</h3>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <span class="input-group-text my-2">Login</span>
+                <input type="text" aria-label="Login" class="form-control">
+                <span class="input-group-text my-2">Password</span>
+                <input type="text" aria-label="Pasword" class="form-control">
+                <span class="input-group-text my-2">Confirm password</span>
+                <input type="text" aria-label="Pasword" class="form-control">
+            </div>
+            <div class="modal-footer d-flex flex-nowrap justify-content-between">
+                <button type="button" class="btn big" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn big" data-bs-dismiss="modal">Confirm</button>
+            </div>
+        </div>
+    </div>
+</div>
