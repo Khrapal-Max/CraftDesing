@@ -17,4 +17,10 @@ Components
 - Menu: response
 - Footer: response
 
+Buttons: Sing in - calling modal dialog.
 
+Folders
+
+- CSS: base styles as main theme.
+- Image: for image. Best practics - type image: AVIF(no apple) WeBP (no old apple).
+- Js: scrips.
