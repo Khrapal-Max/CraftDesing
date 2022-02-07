@@ -23,4 +23,5 @@ Folders
 
 - CSS: base styles as main theme.
 - Image: for image. Best practics - type image: AVIF(no apple) WeBP (no old apple).
-- Js: scrips.
+- Js: scrips. Script for moving between pages. 
+  * If pages as static: added components on all pages.
