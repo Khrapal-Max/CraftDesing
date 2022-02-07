@@ -1,6 +1,6 @@
 # CraftDesing
 
-added chrome emulated device
+Add chrome emulated device
 
 MacBook 14-1 1600 1024
 Iphone 13 Pro Max 428 926
@@ -25,3 +25,5 @@ Folders
 - Image: for image. Best practics - type image: AVIF(no apple) WeBP (no old apple).
 - Js: scrips. Script for moving between pages. 
   * If pages as static: add components on all pages.
+
+All distances between objects DOM and sizes are proportional, but have deviations. 
